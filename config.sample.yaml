@@ -1,10 +1,9 @@
 ---
 # ([string]) Paths to take for backup.
 paths:
-  - "/home/terrorsys/.ssh"
-  #- "/home/terrorsys/Documents"
+  - "/bin"
+  - "/home/linux/Documents"
   - "/etc/hosts"
-  - "/home/terrorsys/.bash_history"
 # (bool) Declare if wants to encrypt the folder with the backup.
 encrypted: True
 # (string) Password to encrypt the backup
@@ -12,4 +11,4 @@ encrypting_password: "test"
 # (string) Declare if the backup will be stored locally or in a cloud environment.
 source: "local"
 # (string) Declare where the backup is stored.
-destiny: "/media/terrorsys/Software"
+destiny: "/media/linux/USB"
